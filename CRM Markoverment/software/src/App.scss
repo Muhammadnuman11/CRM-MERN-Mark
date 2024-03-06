@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import "~bootstrap/scss/bootstrap.scss";
+@import 'react-toastify/dist/ReactToastify.css';
+@import "~bootstrap/scss/bootstrap";
+@import "./scss/home";
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+
+    main {
+        flex: 1 0 auto;
+
+        .active {
+            background-color: #f85317;
+        }
+    }
+}
